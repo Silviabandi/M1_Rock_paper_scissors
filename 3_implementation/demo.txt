@@ -1,0 +1,20 @@
+In this game we have 2 players i.e, user and computer
+In this game each player simultaneously forms one of three shapes. 
+Either stone or paper or scissor. 
+The winner of the game is determined based on the below rules. 
+
+Rules: 
+• Rock vs Paper -> Paper wins. 
+• Rock vs Scissor -> Rock wins. 
+• Paper vs Scissor -> Scissor wins. 
+
+This code asks the user to enter  0,1 or 2. 
+Each number stands for a different item; Rock, Paper, or Scissors. 
+
+The code has a random function in it that randomly generates 0,1,2. The random function generates an answer for the computer. 
+Then if statements determine who wins the round. The if statements keep track of the score. 
+
+Every time the player gets a point the Player score increases by 1 and every time the computer gets a point the computer score increases by one. The whole system is contained within a for loop. 
+The loop runs the program five times. 
+
+After it runs the code five times another set of if statements determine who won based on the score that was kept during the for loop. If it's a draw the else statement will print "No winner it's a draw!".
