@@ -21,8 +21,8 @@ int main()
     while(i<5)
 	{
 	printf("\t----------------------------------\t\n");
-      printf("\t\t Entering Round %d !!\n\n",i+1);
-      printf("\t\t---------------------\t\t\n");
+        printf("\t\t Entering Round %d !!\n\n",i+1);
+        printf("\t\t---------------------\t\t\n");
 	printf("\t\t Enter the option   \t\t\n");
 	printf("\t\t*********************\t\t\n");
 	printf("\t\t 0 - For Rock! \n \t\t 1 - For Paper! \n \t\t 2 - For Scissor! \n");
@@ -35,7 +35,7 @@ int main()
 	//depending upon the option player choosen
 	switch(player)
 	{
-        case 0: printf("\t\tPlayer - Rock\n");
+            case 0: printf("\t\tPlayer - Rock\n");
 	            break;
 	    case 1: printf("\t\tPlayer - Paper\n");
 	            break;
@@ -53,11 +53,14 @@ int main()
 	//depending upon the option computer choosen
 	switch (compturn)
 	{
-    case 0: printf("\t\tComputer - Stone\n");
+        case 0: 
+		printf("\t\tComputer - Stone\n");
 	        break;
-	case 1: printf("\t\tComputer - Paper\n");
+	case 1: 
+		printf("\t\tComputer - Paper\n");
 	        break;
-	case 2: printf("\t\tComputer - Scissor\n");
+	case 2: 
+		printf("\t\tComputer - Scissor\n");
 	        break;
 	}
 	//switch end
@@ -73,11 +76,11 @@ int main()
 	}
 	else if(player==1 && compturn==0)
 	{
-        printf("\t\tPlayer Wins Round %d!!\n\n",i+1);
+            printf("\t\tPlayer Wins Round %d!!\n\n",i+1);
 	    p++;         // this is done to count the no. of wins
                     //by player
 	}
-    else if(player==0 && compturn==2)
+        else if(player==0 && compturn==2)
 	{
 	    printf("\t\tPlayer Win	s Round %d!!\n\n",i+1);
 	    p++; //player wins score incremented
@@ -90,7 +93,7 @@ int main()
 	else if(player==2 && compturn==1)
 	{
 	    printf("\t\tPlayer Wins Round %d!!\n\n",i+1);
-        p++; //player wins score incremented
+            p++; //player wins score incremented
 	}
 	else if(player==1 && compturn==2)
 	{
@@ -98,14 +101,14 @@ int main()
 	    c++; //computer wins score incremented
 	}
 	else
-		printf("\t\tIts a Draw Nobody Wins in Round %d!!\n\n",i+1);
+            printf("\t\tIts a Draw Nobody Wins in Round %d!!\n\n",i+1);
 	    i++; //since its a draw.
 	         //incrementing the chance
 	}
 	//while loop ends
 
 	//final score estimation
-	printf("\t\t -----------------\n");
+    printf("\t\t -----------------\n");
     printf("\t\t|   Final Score   |\n");
     printf("\t\t-----------------\n");
     printf("\t\t|  You | Computer |\n");
