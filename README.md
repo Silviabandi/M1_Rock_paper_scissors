@@ -10,3 +10,4 @@ The winner of the game is determined based on the below rules.
 •	Paper vs Scissor -> Scissor wins.
 In this game, there are two players i.e., user, computer. The user will be asked to make a choice and according to the choice of user and computer. The result of the game is displayed along with the choices of computer and user.
 
+software used: Code::Blocks 20.03
